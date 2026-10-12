@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab6.srcs/sources_1/new/ALU.v" \
+"../../../../Lab6.srcs/sources_1/new/alu_1bit.v" \
+"../../../../Lab6.srcs/sources_1/new/alu_fsm.v" \
+"../../../../Lab6.srcs/sources_1/new/and_gate.v" \
+"../../../../Lab6.srcs/sources_1/new/full_adder.v" \
+"../../../../Lab6.srcs/sources_1/new/half_adder.v" \
+"../../../../Lab6.srcs/sources_1/new/not_gate.v" \
+"../../../../Lab6.srcs/sources_1/new/or_gate.v" \
+"../../../../Lab6.srcs/sources_1/new/xor_gate.v" \
+"../../../../Lab6.srcs/sources_1/new/fsm_alu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

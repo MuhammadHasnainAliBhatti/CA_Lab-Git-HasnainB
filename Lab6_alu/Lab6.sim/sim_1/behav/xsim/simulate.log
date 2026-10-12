@@ -1,0 +1,23 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+PASS state 0 | ctl=0000 result=00000000 Zero=1
+PASS state 1 | ctl=0001 result=11111111 Zero=0
+PASS state 2 | ctl=0010 result=11111111 Zero=0
+PASS state 3 | ctl=0110 result=0f0f0f0f Zero=0
+PASS state 4 | ctl=0011 result=11111111 Zero=0
+PASS state 5 | ctl=1000 result=20202020 Zero=0
+PASS state 6 | ctl=1001 result=08080808 Zero=0
+PASS state 0 | ctl=0000 result=00000000 Zero=1
+PASS state 1 | ctl=0001 result=11111111 Zero=0
+PASS state 2 | ctl=0010 result=11111111 Zero=0
+PASS state 3 | ctl=0110 result=0f0f0f0f Zero=0
+PASS state 4 | ctl=0011 result=11111111 Zero=0
+PASS state 5 | ctl=1000 result=20202020 Zero=0
+PASS state 6 | ctl=1001 result=08080808 Zero=0
+PASS state 0 | ctl=0000 result=00000000 Zero=1
+PASS state 0 | ctl=0000 result=00000000 Zero=1
+PASS state 3 | ctl=0110 result=0f0f0f0f Zero=0
+PASS state 6 | ctl=1001 result=08080808 Zero=0
+PASS state 0 | ctl=0000 result=00000000 Zero=1
+=== FSM + ALU: ALL TESTS PASSED ===
+$finish called at time : 171 ns : File "C:/Users/pc/Downloads/Lab6/Lab6/Lab6.srcs/sources_1/new/fsm_alu_tb.v" Line 82
